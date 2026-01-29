@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ninah Ortiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="lang-switch">
+  <button data-lang="en">EN</button>
+  <button data-lang="pt">PT</button>
+  <button data-lang="es">ES</button>
+</div>
+
+<section class="carousel">
+  <button class="nav prev">&#10094;</button>
+  <img id="carouselImage" alt="Carousel image">
+  <button class="nav next">&#10095;</button>
+</section>
+
+<h1>Ninah Ortiz</h1>
+
+<a id="fanClubBtn" class="social-btn" target="_blank">
+  <span data-i18n="fanclub">My Fan Club</span>
+</a>
+
+<section class="gift-section">
+
+  <div class="remaining" data-i18n="remaining">Time remaining</div>
+  <div id="countdown">00:00:00</div>
+
+  <a id="giftLink" class="gift" target="_blank" aria-label="Gift">🎁</a>
+
+  <div id="giftAction" class="gift-action" data-i18n="giftText">
+    Click here to open the gift — FREE 🔞🔥
+  </div>
+
+  <a id="socialBtn" class="social-btn secondary" target="_blank">
+    <span data-i18n="social">My social media</span>
+  </a>
+
+  <div id="expiredMessage" class="expired hidden" data-i18n="expired">
+    This gift has expired. For more exclusive free gifts, follow on social media.🔥🎁
+  </div>
+
+</section>
+
+<footer>
+  © 2026 Ninah Ortiz. All rights reserved.
+</footer>
+
+<div id="ageModal" class="age-modal hidden">
+  <div class="age-box">
+    <h2 data-age="title">Age confirmation</h2>
+    <p data-age="text"></p>
+
+    <div class="age-actions">
+      <button id="ageYes" data-age="yes"></button>
+      <button id="ageNo" data-age="no">No</button>
+    </div>
+
+    <div id="ageBlocked" class="age-blocked hidden" data-age="blocked"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
