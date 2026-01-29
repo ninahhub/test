@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fanClubLink: "https://seufanclub.com",
     socialLink: "https://seulinkbio.com",
     giftLink: "https://i.imgur.com/xxxx.jpg",
-    giftStart: "2026-01-27T01:00:00"
+    giftStart: "2026-01-26T01:00:00"
   };
 
   /* PRELOAD */
@@ -153,6 +153,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   applyLang();
 });
+
 
 
 
